@@ -124,11 +124,11 @@ const Rental = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='flex justify-end gap-16 py-10'>
-                    <img className='rounded-full' src="../../public/images/jatri-user1.png" alt="" />
-                    <img className='rounded-full' src="../../public/images/jatri-user2.png" alt="" />
-                    <img className='rounded-full' src="../../public/images/jatri-user3.png" alt="" />
-                    <img className='rounded-full' src="../../public/images/jatri-user4.png" alt="" />
+                <div className='flex justify-end gap-14 py-10'>
+                    <button><img className='rounded-full border-8 hover:border-red-300' src="../../public/images/jatri-user1.png" alt="" /></button>
+                    <button><img className='rounded-full border-8 hover:border-red-300' src="../../public/images/jatri-user2.png" alt="" /></button>
+                    <button><img className='rounded-full border-8 hover:border-red-300' src="../../public/images/jatri-user3.png" alt="" /></button>
+                    <button><img className='rounded-full border-8 hover:border-red-300' src="../../public/images/jatri-user4.png" alt="" /></button>
                 </div>
             </div>
             {/* Introducing a better way to travel for business*/}
@@ -164,7 +164,7 @@ const Rental = () => {
                         How long should I wait for the bidding process?
                     </div>
                     <div className="collapse-content"> 
-                        <p>We rocommened waiting up to 90 minutes to complete bidding.</p>
+                        <p>We recommend waiting up to 90 minutes to complete bidding.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus -ml-4">
